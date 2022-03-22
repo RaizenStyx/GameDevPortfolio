@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<link rel="stylesheet" href="style.css">
+	<title>2PlayerRacing</title>
+</head>
+
+<body>
+
+	<h1>Welcome to 2 Player Racing!</h1>
+
+	<canvas id = "gameCanvas" width = "800" height="600"></canvas>
+
+	<div id = "display">Who will win?</div>
+
+	<a href="javascript:window.open('','_self').close();">Close</a>
+
+	<div id = "controlsPlayer2">
+		<h3>Purple car controls</h3>
+		<ul>
+			<li>Forward = Up Arrow Key</li>
+			<li>Backward = Down Arrow Key</li>
+			<li>Left = Left Arrow Key</li>
+			<li>Right = Right Arrow Key</li>
+		</ul>
+	</div>
+	<div id = "controlsPlayer1">
+		<h3>Blue car controls</h3>
+		<ul>
+			<li>Forward = W Key</li>
+			<li>Backward = S Key</li>
+			<li>Left = A Key</li>
+			<li>Right = D Key</li>
+		</ul>
+	</div>
+
+	<div id = "footer">Thanks for playing!</div>
+	
+
+	<script src = "js/GraphicsCommon.js"></script>
+	<script src = "js/ImageLoading.js"></script>
+	<script src = "js/Car.js"></script>
+	<script src = "js/Track.js"></script>
+	<script src = "js/Input.js"></script>
+	<script src = "js/Main.js"></script>
+
+	
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+// blocks
+??== make constans for canvas height and weight maybe
+make blocks proportional to canvas width and height. Keep how it streches across the screen.
+redo the placement of blocks. Proportional to canvas as well?
+Shoot between bricks.
+
+//shooting
+need to fix shooting?
+Fix ball move function to make where it only shoots once when pressed. Or maybe multiple shots? 
+.........TBC......
+
